@@ -12,24 +12,27 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <meta name="description" content="Description" />
+        <meta
+          name="description"
+          content="Explore Cottonly Special's exclusive range of premium cotton wear. Comfort, style, and sustainability in every thread."
+        />
         <meta name="keywords" content="Keywords" />
         <title>Cottonly UK</title>
 
         <link rel="manifest" href="/manifest.json" />
         <link
-          href="/icons/favicon-16x16.png"
+          href="/icons/icon-16x16.png"
           rel="icon"
           type="image/png"
           sizes="16x16"
         />
         <link
-          href="/icons/favicon-32x32.png"
+          href="/icons/icon-32x32.png"
           rel="icon"
           type="image/png"
           sizes="32x32"
         />
-        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
+        <link rel="apple-touch-icon" href="/icons/icon-152x152.png"></link>
         <meta name="theme-color" content="#317EFB" />
       </Head>
       <Component {...pageProps} />
