@@ -6,12 +6,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
+        <html lang="en-GB" />
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
-        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <meta
           name="description"
           content="Explore Cottonly Special's exclusive range of premium cotton wear. Comfort, style, and sustainability in every thread."
