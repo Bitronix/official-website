@@ -9,12 +9,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          name="description"
-          content="Explore Cottonly Special's exclusive range of premium cotton wear. Comfort, style, and sustainability in every thread."
-        />
+        <meta name="description" content="" />
         <meta name="keywords" content="Keywords" />
-        <title>Cottonly UK</title>
+        <title>Bitronix</title>
         <link rel="manifest" href="/manifest.json" />
         <link
           href="/icons/icon-16x16.png"
