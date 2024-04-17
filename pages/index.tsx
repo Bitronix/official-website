@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <p className="text-xl mt-2">Loading...</p>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
